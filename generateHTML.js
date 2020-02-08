@@ -1,3 +1,4 @@
+function generateHTML(data) {
 const colors = {
   green: {
     wrapperBackground: "#E6E1C3",
@@ -25,7 +26,6 @@ const colors = {
   }
 };
 ​
-function generateHTML(data) {
   return `<!DOCTYPE html>
 <html lang="en">
    <head>
