@@ -1,14 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const util = require("util");
 const axios = require("axios");
 const generateHTML = require("./generateHTML");
-// const path = require("path");
-// const open = require("open");
-// const writeFileAsync = util.promisify(fs.writeFile);
+
   
 console.log(generateHTML);
-// promptUser().then(console.log(res))
 promptUser().then(res => getInfo(res))
 
 function promptUser() {
