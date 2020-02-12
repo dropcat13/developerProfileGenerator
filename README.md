@@ -11,11 +11,9 @@ I WANT a developer profile generator
 SO THAT I can easily prepare reports for stakeholders. 
 
 
-## Example pdf
-[screenshot] (image)
+## Example html site
+![image](https://user-images.githubusercontent.com/12642091/74357297-bb84ee00-4d8d-11ea-9c7d-fa1d0c3a7a57.png)
 
-# Link to screenshot of html profile
-[screenshot] (image)
 
 # Technologies used
 This project used node.js with various packages including inquirer and axios. To make the webpage and pdf it used HTML, CSS (using bootstrap for layout and mobile readiness), javascript and jQuery. It also utilized a 3rd party API from github.
